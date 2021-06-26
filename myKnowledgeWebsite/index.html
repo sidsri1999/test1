@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Knowledge Platform</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ccc;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Knowledge</br>Platform</h2>
+</header>
+
+<section>
+	<hr>
+	<div data-empty="true" style="text-align: center;"><span style="font-size: 26px;"><a href="dailyCurrentAffairs/monthWiseCurrentAffairs.html">Daily Current Affairs</a></span></div>
+	<hr>
+	<div style="text-align: center;"><span style="font-size: 26px;"><a href="brandAmbassadors/brandAmbassadors.html">Brand Ambassadors</a></span></div>
+	<hr>
+	<div style="text-align: center;"><span style="font-size: 26px;">Various Schemes</span></div>
+	<hr>
+	<div style="text-align: center;"><span style="font-size: 26px;">Sports</span></div>
+	<hr>
+	<div style="text-align: center;"><span style="font-size: 26px;">Major Appointments</span></div>
+	<hr>
+	<div style="text-align: center;"><span style="font-size: 26px;">Statewise Capsule</span></div>
+	<hr>
+</section>
+
+<footer>
+  <p>Thank You</p>
+</footer>
+
+</body>
+</html>
